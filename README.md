@@ -9,19 +9,19 @@ A Bash and PowerShell script for acquiring the most recent edition of Burp Suite
 Burp Suite Professional is a popular web vulnerability scanner and penetration testing tool used by security professionals to assess the security of web applications. Here's a general outline of the installation process:
 
 ```bash
-step 1 --> Copy the downloaded files to C:\Burp.
-step 2 -->	Make new directory "Burp" in C Drive for faster access.
-step 3 --> Open Powershell and execute below command to set Script Execution Policy.
-step 4 -->	Set-ExecutionPolicy -ExecutionPolicy bypass-Scope process
-step 5 --> Now Execute Windows_Setup.ps1 file in Powershell to Complete Installation.
+1. Copy the downloaded files to C:\Burp.
+2. Make new directory "Burp" in C Drive for faster access.
+3. Open Powershell and execute below command to set Script Execution Policy.
+4. Set-ExecutionPolicy -ExecutionPolicy bypass-Scope process
+5. Now Execute Windows_Setup.ps1 file in Powershell to Complete Installation.
 	./Windows_Setup.ps1
-step 6 --> Change the icon of **Burp-Suite-Pro.vbs** to the given icon 
+6. Change the icon of **Burp-Suite-Pro.vbs** to the given icon 
 	Create a shortcut to Desktop. 
         Right Click over **Burp-Suite-Pro.vbs** Go to Shortcut tab, and below there is **Change Icon** tab.
         Click there and choose the burp-suite.ico from C:\Burp\ 
         ![image](https://user-images.githubusercontent.com/29830064/230825172-16c9cfba-4bca-46a4-86df-b352a4330b12.png)
 
-step 7 --> For Start Menu Entry, copy **Burp-Suite-Pro.vbs** file to 
+7. For Start Menu Entry, copy **Burp-Suite-Pro.vbs** file to 
 	C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
 ```
 
